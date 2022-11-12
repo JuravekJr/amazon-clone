@@ -1,0 +1,145 @@
+.sidebar_container{
+    width: 370px;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: -400px;
+    transition: .5s;
+    z-index: 17;
+    overflow-x: hidden;
+}
+.sidebarUser{
+    width: 100%;
+    height: 50px;
+    background-color: var(--bgPrimary);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.sidebarUser span{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.sidebarUser svg{
+    font-size: 30px;
+}
+
+.sidebar_container.showSidebarCon{
+    left: 0;
+}
+.sidebarWrapper{
+    width: 100%;
+    height: 94%;
+    display: flex;
+    transform: translateX(0%);
+    transition: .3s;
+}
+
+.sidebarWrapper.leftSide{
+    transform: translateX(-100%);
+}
+.sidebar_item{
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.sidebar_item ul li{
+    padding: 10px 33px;
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    font-size: 15px;
+}
+.sidebar_item ul li:hover{
+    background-color: #80808021;
+    cursor: pointer;
+    color: #000;
+}
+.sidebar_item ul svg{
+    font-size: 22px;
+    color: #a09d9d;
+}
+.sidebar_item h3{
+    padding: 20px 30px;
+    font-size: 18px;
+    border-top: 1px solid rgb(194, 194, 194);
+    color: #333;
+    /* cursor: pointer; */
+}
+.MainMenu{
+    cursor: pointer;
+}
+.MainMenu:hover{
+    background-color:#80808021;
+}
+.sidebar_item p img{
+    width: 20px;
+    margin-right: 10px;
+}
+.sidebar_item p svg{
+    margin-right: 10px;
+}
+.sidebar_item p{
+    color: #555;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sidebar shadow */
+
+.sidebar_shadow{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+
+.sidebar_shadow.close{
+    animation: sidebarClose .5s forwards;
+    opacity: 1;
+    background-color: #00000077;
+}
+@keyframes sidebarClose{
+    0%{background-color: #00000094;}
+    90%{background-color: #00000000; transform:scale(1)}
+    100%{ background-color: #00000000;transform:scale(0);}
+}
+
+.sidebar_shadow.show1{
+    background-color: #000000c5;
+    animation: sidebarShow .5s forwards;
+    opacity: 0;
+}
+
+@keyframes sidebarShow{
+    to{opacity: 1;}
+}
+
+.close_sidebarBtn{
+    position: absolute;
+    top: 10px;
+    left: 380px;
+    font-size: 34px;
+    color: #fff;
+    cursor: pointer;
+}
+

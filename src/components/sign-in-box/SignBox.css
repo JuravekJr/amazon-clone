@@ -1,0 +1,65 @@
+.sign_inBox{
+    width: 500px;
+    height: 380px;
+    background-color: #fff;
+    position: absolute;
+    top: 45px;
+    right: -90px;
+    z-index: 13;
+    border-radius: 5px;
+    padding: 20px;
+    color: #000;
+}
+.sign_inBox::before{
+    content: '';
+    position: absolute;
+    top: -6px;
+    right: 97px;
+    width: 16px;
+    height: 16px;
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+.sign_inBoxTop{
+    text-align: center;
+}
+.sign_inBoxTop button{
+    width: 200px;
+    height: 35px;
+    background: -webkit-linear-gradient(top,#f8e3ad,#EEBA37);
+    border:1px solid;
+    border-color: #c89411 #b0820f #99710d;
+    border-radius: 4px;
+    color: rgb(143, 45, 45);
+    font-size: 13px;
+    cursor: pointer;
+}
+.sign_inBox p{
+   margin:10px 25px;
+   font-size: 11px;
+   color: gray;
+}
+
+.sign_inBoxGrid{
+    width: 97%;
+    height: 270px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 20px;
+}
+
+.sign_inBoxGridItem:last-child{
+    border-left: 1px solid rgba(128, 128, 128, 0.233);
+    padding:0 20px;
+}
+.sign_inBoxGridItem h3{
+    color: #242424;
+    font-size: 17px;
+}
+.sign_inBoxGridItem li{
+    font-size: 13px;
+    margin-top: 10px;
+    color: rgb(104, 103, 103);
+}

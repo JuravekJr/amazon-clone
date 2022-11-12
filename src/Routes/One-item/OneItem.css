@@ -1,0 +1,19 @@
+
+.one_itemContainer{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+}
+
+.one_itemImage{
+    width: 50%;
+    height: 500px;
+}
+.one_itemImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.one_itemDesc{
+    width: 50%;
+}

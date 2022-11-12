@@ -1,0 +1,44 @@
+.navbar2{
+    width: 100%;
+    height: 40px;
+    background-color: var(--bgPrimary);
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+}
+.all{
+    display: flex;
+    padding: 2px 7px;
+    border-radius: 2px;
+    color: #fff;
+    align-items: center;
+    margin-left: 15px;
+    border:  1px solid transparent;
+    cursor: pointer;
+}
+.all svg{
+    font-size: 23px;
+}
+.all li{
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.all:hover{
+    border: var(--borderPrimary);
+}
+.collection{
+    display: flex;  
+}
+.collection li{
+    padding: 4px;
+    color: #fff;
+    margin: 9px;
+    font-size: 13px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.collection li:hover{
+    border: var(--borderPrimary);
+}

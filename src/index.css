@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+/*
+  root
+*/
+
+:root{
+  --bgDark:#131921;
+  --bgPrimary: #232F3E;
+  --bgGold: #febd69;
+  --bgLight: #eaeded;
+  --borderPrimary: 1px solid #fff;
+}
+
+
+/*
+  Global Css
+*/
+
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}

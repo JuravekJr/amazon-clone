@@ -1,0 +1,139 @@
+.footer{
+    width: 100%;
+    height: 520px;
+    background-color: #232F3E;
+    /* margin-top: -300px; */
+}
+.footerToTop{
+    width: 100%;
+    height: 55px;
+    background-color: #37475A;
+    cursor: pointer;
+}
+.footerToTop:hover{
+    background-color: #505d6da1;
+}   
+.footerToTop h3{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #fff;
+}
+.footerCenter{
+    width: 55%;
+    height: 72%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+}
+.footerCenter li{
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.footerCenter p{
+    color: #ddd;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.footer_setting_wrapper{
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid rgb(117, 117, 117);
+}
+
+.footerSettings{
+    width: 35%;
+    height: 70px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin:20px auto;
+}
+
+.footerImg{
+    width: 70px;
+    margin: 50px;
+}
+
+.footerSettingBox{
+    width: 150px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 2px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.footerSettingBox img{
+    width: 20px;
+}
+.footerBottom_wrapper{
+    width: 100%;
+    height: 360px;
+    background-color: #131A22;
+  }
+
+  .footer_bottom{
+    width:50%;
+    height: 360px;
+    /* background-color: red; */
+    margin:auto;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    /* grid-gap: 50px; */
+  }
+ .footer_bottom li{
+     font-size: 12px;
+     font-weight: 600;
+     color: #ddd;
+     cursor: pointer;
+ }
+ .footer_bottom p{
+     font-size: 10px;
+     color: rgb(170, 170, 170);
+     cursor: pointer;
+ }
+ .footer_bottom li:hover{
+     text-decoration: underline;
+ }
+
+ .footer_bottom p:hover{
+     text-decoration: underline;
+ }
+
+
+
+
+.footer_last{
+    width: 100%;
+    height: 80px;
+    background-color: #131A22;
+    color: #ddd;
+}
+.footer_last p{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 50px;
+}
+.footer_last p a{
+    color: #ddd;
+    text-decoration: none;
+    margin: 10px;
+}
+.footer_last p a:hover{
+    text-decoration: underline;
+}

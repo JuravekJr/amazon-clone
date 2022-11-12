@@ -1,0 +1,64 @@
+.languageBox{
+    width: 230px;
+    height: 520px;
+    background-color: #fff;
+    position: absolute;
+    top: 50px;
+    right: -180px;
+    z-index: 13;
+    border-radius: 2px;
+    padding: 20px;
+    color: #000;
+}
+.languageBox::before{
+    content: '';
+    position: absolute;
+    top: -6px;
+    right: 184px;
+    width: 16px;
+    height: 16px;
+    transform: rotate(45deg);
+    background-color: #fff;
+}
+.languageBox p{
+    font-size: 13px;
+    color: #333;
+}
+.languageBox a{
+    color: #1a73e8;
+    margin-left: 5px;
+}
+.languageBox h5:first-child{
+    color: red;
+}
+.languageBox h5{
+    color: #333;
+    font-weight: 200;
+    margin: 15px 0;
+    
+}
+.languageBox h5:last-child{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+    padding: 6px 0px;
+}
+
+.languageBox h4{
+    color: #333;
+    font-weight: 200;
+    margin: 15px 0;
+    font-size: 13px;
+    border-bottom: 1px solid rgb(173, 173, 173);;
+    padding: 10px 0px;
+}
+.languageBox h4:last-child
+.languageBox h5 a{
+    margin-left: 77px;
+}
+.languageBox h5:hover{
+    color: coral;
+    cursor: pointer;
+}
+.languageBox li a{
+    font-size: 12px;
+    margin-left: 30px;
+}

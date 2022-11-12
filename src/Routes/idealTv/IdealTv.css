@@ -1,0 +1,58 @@
+.tv{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.tv_sidebar{
+    width: 210px;
+    height: 140vh;
+    background-color: #fff;
+    /* border-right: 2px solid #ddd; */
+   margin-left: 210px;
+   margin-top: 15px;
+}
+.tv_leftbar{
+    width: 90%;
+    height: auto;
+    /* background-color: red; */
+    margin-top: 15px;
+}
+.tv_leftbar h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+.TvWrapper{
+    width: 97%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.TvProducts{
+    width: 350px;
+    height: 410px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.TvProducts h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 5px;
+    color: #242424;
+}
+.TvProducts img{
+    width: 95%;
+    height: 300px;
+    margin-left: 10px;
+    object-fit: contain;
+}
+.TvProducts span svg{
+    fill: #FFA41C;
+    margin-left: 5px;
+}
+.TvProducts h4{
+    margin-left: 5px;
+}
